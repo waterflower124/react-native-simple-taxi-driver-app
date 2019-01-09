@@ -1,0 +1,52 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - React (0.57.7):
+    - React/Core (= 0.57.7)
+  - react-native-image-picker (0.27.2):
+    - React
+  - react-native-sqlite-storage (3.3.9):
+    - React
+  - React/Core (0.57.7):
+    - yoga (= 0.57.7.React)
+  - yoga (0.57.7.React)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - React (from `../node_modules/react-native`)
+  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - react-native-sqlite-storage (from `../node_modules/react-native-sqlite-storage`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-image-picker:
+    :path: "../node_modules/react-native-image-picker"
+  react-native-sqlite-storage:
+    :path: "../node_modules/react-native-sqlite-storage"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  React: 67899bbb285ceb9b4ee1c88b3991602ba5772ad2
+  react-native-image-picker: e47cbaf230af8902316e4d69dc83f959bde45e23
+  react-native-sqlite-storage: 1711a546ea7663ed199e85a024fc7120d54c7a4e
+  yoga: 192d724e53380b783e09b7d687a55cd8ed5188be
+
+PODFILE CHECKSUM: 8ec33f5b7565a617e83005cd1fe0f1a500a846e2
+
+COCOAPODS: 1.6.0.beta.2
